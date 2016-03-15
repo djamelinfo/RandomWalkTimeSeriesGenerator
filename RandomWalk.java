@@ -21,15 +21,15 @@ public class RandomWalk {
         NormalDistribution n = new NormalDistribution(new JDKRandomGenerator(),
                                                       0, 1); //mean 0 std 1 variance 1
         String[] ts = new String[length];
-        float[] e = new float[length - 1];
+        double[] e = new double[length - 1];
 
         for(int i = 0; i < e.length; i++) {
-            e[i] = (float) n.sample();
+            e[i] = (double) n.sample();
         }
         ts[0] = "0.0";
         for(int i = 1; i < length; i++) {
-            ts[i] = (Float.
-                    parseFloat(ts[i - 1]) + e[i - 1]) + "";
+            ts[i] = (Double.
+                    parseDouble(ts[i - 1]) + e[i - 1]) + "";
         }
 
         return ts;
