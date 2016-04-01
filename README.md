@@ -4,8 +4,8 @@ This is a generator, where a random number is drawn from a Gaussian distribution
 # Requirements
 
 This generator require two libraries :
-- OpenCSV library for Java (http://opencsv.sourceforge.net/).
-- The Apache Commons Mathematics Library (https://commons.apache.org/proper/commons-math/).
+- [OpenCSV](http://opencsv.sourceforge.net/) library for Java.
+- [The Apache Commons Mathematics Library](https://commons.apache.org/proper/commons-math/).
 
 
 ![alt tag](https://github.com/djamelinfo/RandomWalkTimeSeriesGenerator/blob/master/randomWalkTS.png)
