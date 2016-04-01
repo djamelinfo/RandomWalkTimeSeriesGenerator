@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package randomwalk;
 
 import com.opencsv.CSVWriter;
 import java.io.FileWriter;
@@ -25,7 +24,7 @@ import org.apache.commons.math3.random.JDKRandomGenerator;
  *
  * @author Djamel Edine YAGOUBI <djamel-edine.yagoubi@inria.fr>
  */
-public class RandomWalk {
+public class RandomWalkTsG {
 
     public static String[] randomWalk(int length) {
         NormalDistribution n = new NormalDistribution(new JDKRandomGenerator(),
