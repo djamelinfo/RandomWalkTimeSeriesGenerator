@@ -13,6 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+ 
+ package fr.inria.randomWalk;
 
 import com.opencsv.CSVWriter;
 import java.io.FileWriter;
