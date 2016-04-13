@@ -14,7 +14,7 @@
  * limitations under the License.
  */
  
- package fr.inria.randomWalk;
+ package fr.inria.zenith.randomWalk;
 
 import com.opencsv.CSVWriter;
 import java.io.FileWriter;
